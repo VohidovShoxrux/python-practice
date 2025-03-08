@@ -82,7 +82,7 @@
     
 # print(*perfect_numbers)
 
-# 6. n natural son berilgan. shu songacha bo'lgan tub sonalrni chiqaruvchi dastur
+# 6. n natural son berilgan. shu songacha bo'lgan tub sonalrni chiqaruvchi dastur 
 
 # N = int(input("N sonini kiriting: "))
 
