@@ -126,3 +126,42 @@
 # for pair in amicable_pairs:
 #     print(pair[0],pair[1])
 
+# 8. 
+
+# starter = int(input("Boshlang'ich summani kiriting: "))
+# p = int(input("Foizni kiriting: "))
+
+# current = starter
+# month = 0
+
+# while current <= 2*starter:
+#     current += current*p/100
+#     month += 1
+
+# print(f"{month} oyda {current} so'm")
+
+# 9. sondagi raqamlar yig'indsini
+
+# number = int(input("sonni kiriting: "))
+
+# digit_count = 0
+# digit_sum = 0
+
+# while number > 0:
+#     digit_sum += number % 10
+#     number = number // 10
+
+#     digit_count += 1
+
+# print(digit_count, digit_sum)
+
+# 10. Evklid algoritmi bo'yicha EKUB
+
+# A = int(input("A ni kiriting: "))
+# B = int(input("B ni kiriting: "))
+
+# while B !=0:
+#     print(A,B)
+#     A, B = B, A % B
+
+# print(f"EKUB {A}")
